@@ -4,6 +4,24 @@
  * Результат сохраните в переменной grade.
  */
 
-const score = 70 // тестовое значение, можно изменять
-let grade
-// your code
+const scoreA = 90;
+const scoreB = 80;
+const scoreC = 70;
+const scoreD = 50;
+
+let grade;
+let score = parseInt(prompt('Enter your score: '));
+
+if (score >= 90) {
+    grade = 'A';
+} else if (score >= 80) {
+    grade = 'B';
+} else if (score >= 70) {
+    grade = 'C';
+} else if (score >= 50) {
+    grade = 'D';
+} else {
+    grade = 'F';
+}
+
+console.log(grade);

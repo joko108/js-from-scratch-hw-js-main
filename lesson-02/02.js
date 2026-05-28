@@ -31,3 +31,4 @@ while(!isWinningDouble) {
   //   console.log('Не выигрышный дубль.')
   // }
 }
+

@@ -3,8 +3,7 @@
 let num = 2;
 
 function isEven(num) {
-    
-    console.log(num % 2 === 0 ? true : false);
+    return num % 2 === 0 ? true : false;
     
     // if (num % 2 === 0) {
     //     return true;
@@ -13,6 +12,4 @@ function isEven(num) {
     // }
 }
 
-isEven(num);
-
-// console.log(result);
+console.log(isEven(num));

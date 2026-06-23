@@ -16,16 +16,14 @@
 */
 
 function findUniqueElements(array) {
-    let uniqElement = 0;
     let uniqueArr = [];
-    
+
     for (let i = 0; i < array.length; i++) {
-        if (array[i] > uniqElement) {
-            uniqElement = array[i];
+        if(!uniqueArr.includes(array[i])) {
             uniqueArr.push(array[i]);
         }
     }
+
     return uniqueArr;
 }
-
-console.log(findUniqueElements([1, 2, 3, 2, 1, 4]));
+console.log(findUniqueElements(["apple","banana","apple","orange","banana"]));

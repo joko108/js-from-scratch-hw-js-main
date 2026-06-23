@@ -31,7 +31,3 @@ function findCommonElements(array1, array2) {
 
     return common;
 }
-
-
-console.log(findCommonElements(['apple', 'samsung', 'huawei', 'xiaomi'], 
-                               ['apple', 'oppo', 'xiaomi', 'lg', 'sony']));

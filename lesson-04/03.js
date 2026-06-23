@@ -21,8 +21,11 @@ function findCommonElements(array1, array2) {
     let common = [];
 
     for (i = 0; i < array1.length; i++) {
-        if (array2.includes(array1[i])) {
-            common.push(array1[i]);
+        for (j = 0; j < array2.length; j++) {
+            if (array1[i] === array2[j]) {
+                common.push(array1[i]);
+                break;
+            }
         }
     }
 

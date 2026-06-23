@@ -22,6 +22,3 @@ function doubleEachCharacter(str) {
 
     return doubleCharacter;
 }
-
-
-doubleEachCharacter('hello');

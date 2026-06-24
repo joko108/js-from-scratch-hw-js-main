@@ -33,6 +33,8 @@ const gallery = {
   'Mona Lisa': 'Leonardo da Vinci',
   'Starry Night': 'Vincent van Gogh',
   'The Scream': 'Edvard Munch',
-}
+};
 
-function updateGallery() {}
+function updateGallery(gallery, title, newValue) {
+  gallery[title] = newValue;
+}
